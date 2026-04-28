@@ -103,7 +103,7 @@ const COPY = {
       message: "Message",
       send: "Send message",
       sending: "Sending…",
-      ok: "✓ Message captured locally. For real delivery, this form needs to be wired to a backend.",
+      ok: "✓ Message sent successfully. I'll get back to you soon!",
       err: "Could not send. Try LinkedIn instead.",
     },
 
@@ -213,7 +213,7 @@ const COPY = {
       message: "Mensaje",
       send: "Enviar mensaje",
       sending: "Enviando…",
-      ok: "✓ Mensaje guardado localmente. Para entrega real, conecta el formulario a un backend.",
+      ok: "✓ Mensaje enviado correctamente. ¡Me pondré en contacto contigo pronto!",
       err: "No se pudo enviar. Prueba por LinkedIn.",
     },
 
