@@ -130,8 +130,8 @@ function Hero({ lang, copy }) {
         <span><span className="key">●</span> <span>{copy.available}</span></span>
       </div>
       <h1 className="hero-name">
-        Luis<br/>
-        <span className="accent">Moreno-Torres.</span>
+        Luis Moreno-Torres<br/>
+        <span className="accent">{copy.role}.</span>
       </h1>
 
       <div className="hero-grid">
