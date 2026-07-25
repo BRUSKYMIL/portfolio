@@ -8,8 +8,8 @@ function HeroTerminal({ lang }) {
     { kind: "cmd", text: "cat profile.json" },
     { kind: "json", lines: [
       "{",
-      '  "rol":      "Desarrollador de Software",',
-      '  "stack":    ["Java", "Spring Boot", "SQL"],',
+      '  "rol":      "Desarrollador Web",',
+      '  "stack":    ["C#", ".NET", "Java", "SQL"],',
       '  "ubicacion":"Madrid, ES",',
       '  "estado":   "disponible para trabajar"',
       "}",
@@ -22,8 +22,8 @@ function HeroTerminal({ lang }) {
     { kind: "cmd", text: "cat profile.json" },
     { kind: "json", lines: [
       "{",
-      '  "role":     "Software Developer",',
-      '  "stack":    ["Java", "Spring Boot", "SQL"],',
+      '  "role":     "Web Developer",',
+      '  "stack":    ["C#", ".NET", "Java", "SQL"],',
       '  "location": "Madrid, ES",',
       '  "status":   "open to work"',
       "}",
@@ -179,6 +179,12 @@ function Now({ copy }) {
         <ul className="now-list">
           {copy.now.items.map((it, i) => <li key={i}>{it}</li>)}
         </ul>
+        <div className="now-side">
+          <span className="now-side-tag">{copy.now.sideTag}</span>
+          <ul className="now-list now-list-side">
+            {copy.now.sideItems.map((it, i) => <li key={i}>{it}</li>)}
+          </ul>
+        </div>
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Backend-leaning developer working primarily with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Since July 2026 at the <strong>Registro Mercantil de Madrid</strong>, building web applications with <strong>C# and .NET</strong>. Creator of <strong>GamerZone</strong>, a real-time chat and voice platform running in production. Self-taught, methodical, and focused on writing reliable, well-documented code.
+        Web developer at the <strong>Registro Mercantil de Madrid</strong> since July 2026, building a web application with <strong>C# and ASP.NET Web Forms</strong>. Backend-leaning by background, with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Self-taught, methodical, and focused on writing reliable, well-documented code.
       </>
     ),
 
@@ -30,18 +30,23 @@ const COPY = {
     },
 
     aboutP1: (<>I am a software developer based in Madrid with a strong interest in backend systems and the broader software ecosystem. I recently completed the <strong>Higher Vocational Degree in Multi-Platform Application Development</strong> at CEU FP, after finishing a Baccalaureate in Technological Sciences.</>),
-    aboutP2: (<>I work primarily with <strong>Java and Spring Boot</strong>, and I am comfortable across the stack with HTML, CSS, JavaScript, SQL and Kotlin. I value structured, well-documented code and clear communication within a team. I am proactive, learn fast, and treat every project as an opportunity to improve the way I work.</>),
+    aboutP2: (<>Professionally I work with <strong>C# and ASP.NET Web Forms</strong>, while my own background is built around <strong>Java and Spring Boot</strong>. I am comfortable across the stack with HTML, CSS, JavaScript, SQL and Kotlin. I value structured, well-documented code and clear communication within a team. I am proactive, learn fast, and treat every project as an opportunity to improve the way I work.</>),
     aboutP3: (<>I am looking for a developer role where I can contribute, keep learning, and grow alongside an experienced team.</>),
 
     now: {
       tag: "// status",
-      title: "Working at the Registro Mercantil de Madrid",
-      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry), developing a web application with C# and ASP.NET Web Forms. Outside working hours I build and operate GamerZone, my own real-time communication platform, which keeps me deepening my knowledge of backends, WebRTC, and production deployments.",
+      title: "Building web applications with C# and .NET",
+      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry), where I develop a web application with C# and ASP.NET Web Forms.",
       items: [
-        "C# + ASP.NET Web Forms",
-        "GamerZone — chat & voice platform",
-        "WebRTC & real-time systems",
-        "Java + Spring Boot foundations",
+        "C#",
+        "ASP.NET Web Forms",
+        ".NET",
+      ],
+      sideTag: "// outside work",
+      sideItems: [
+        "GamerZone — my own platform",
+        "Node.js & WebRTC",
+        "Java + Spring Boot",
       ],
     },
 
@@ -132,7 +137,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Desarrollador con perfil backend, centrado en <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Desde julio de 2026 en el <strong>Registro Mercantil de Madrid</strong>, desarrollando aplicaciones web con <strong>C# y .NET</strong>. Creador de <strong>GamerZone</strong>, una plataforma de chat y voz en tiempo real desplegada en producción. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
+        Desarrollador web en el <strong>Registro Mercantil de Madrid</strong> desde julio de 2026, donde desarrollo una aplicación web con <strong>C# y ASP.NET Web Forms</strong>. De formación backend, con <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
       </>
     ),
 
@@ -155,18 +160,23 @@ const COPY = {
     },
 
     aboutP1: (<>Soy desarrollador de software en Madrid, con un fuerte interés en sistemas backend y el ecosistema del software en general. Recientemente he finalizado el <strong>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</strong> en CEU FP, tras cursar el Bachillerato de Ciencias Tecnológicas.</>),
-    aboutP2: (<>Trabajo principalmente con <strong>Java y Spring Boot</strong>, y me defiendo en HTML, CSS, JavaScript, SQL y Kotlin. Valoro el código estructurado y bien documentado, así como la comunicación clara dentro del equipo. Soy proactivo, aprendo rápido y entiendo cada proyecto como una oportunidad para mejorar mi forma de trabajar.</>),
+    aboutP2: (<>Profesionalmente trabajo con <strong>C# y ASP.NET Web Forms</strong>, mientras que mi base personal se apoya en <strong>Java y Spring Boot</strong>. Me defiendo en HTML, CSS, JavaScript, SQL y Kotlin. Valoro el código estructurado y bien documentado, así como la comunicación clara dentro del equipo. Soy proactivo, aprendo rápido y entiendo cada proyecto como una oportunidad para mejorar mi forma de trabajar.</>),
     aboutP3: (<>Busco una posición como desarrollador donde poder aportar, seguir aprendiendo y crecer junto a un equipo con experiencia.</>),
 
     now: {
       tag: "// estado",
-      title: "Trabajando en el Registro Mercantil de Madrid",
-      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid, donde desarrollo una aplicación web con C# y ASP.NET Web Forms. Fuera del horario laboral desarrollo y mantengo GamerZone, mi propia plataforma de comunicación en tiempo real, con la que sigo profundizando en backend, WebRTC y despliegues en producción.",
+      title: "Desarrollando aplicaciones web con C# y .NET",
+      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid, donde desarrollo una aplicación web con C# y ASP.NET Web Forms.",
       items: [
-        "C# + ASP.NET Web Forms",
-        "GamerZone — plataforma de chat y voz",
-        "WebRTC y sistemas en tiempo real",
-        "Fundamentos de Java + Spring Boot",
+        "C#",
+        "ASP.NET Web Forms",
+        ".NET",
+      ],
+      sideTag: "// al margen del trabajo",
+      sideItems: [
+        "GamerZone — plataforma propia",
+        "Node.js y WebRTC",
+        "Java + Spring Boot",
       ],
     },
 
