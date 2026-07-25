@@ -1,1 +1,28 @@
+# Tooling
 .claude/
+
+# Node (not used today, but keep stray installs out of the repo)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Netlify
+.netlify/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
