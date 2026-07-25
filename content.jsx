@@ -7,7 +7,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Backend-leaning developer working primarily with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Since July 2026 at the <strong>Registro Mercantil de Madrid</strong>. Creator of <strong>GamerZone</strong>, a real-time chat and voice platform running in production. Self-taught, methodical, and focused on writing reliable, well-documented code.
+        Backend-leaning developer working primarily with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Since July 2026 at the <strong>Registro Mercantil de Madrid</strong>, building web applications with <strong>C# and .NET</strong>. Creator of <strong>GamerZone</strong>, a real-time chat and voice platform running in production. Self-taught, methodical, and focused on writing reliable, well-documented code.
       </>
     ),
 
@@ -36,9 +36,9 @@ const COPY = {
     now: {
       tag: "// status",
       title: "Working at the Registro Mercantil de Madrid",
-      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry). Outside working hours I build and operate GamerZone, my own real-time communication platform, which keeps me deepening my knowledge of backends, WebRTC, and production deployments.",
+      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry), developing a web application with C# and ASP.NET Web Forms. Outside working hours I build and operate GamerZone, my own real-time communication platform, which keeps me deepening my knowledge of backends, WebRTC, and production deployments.",
       items: [
-        "Registro Mercantil de Madrid",
+        "C# + ASP.NET Web Forms",
         "GamerZone — chat & voice platform",
         "WebRTC & real-time systems",
         "Java + Spring Boot foundations",
@@ -49,10 +49,10 @@ const COPY = {
       {
         period: "Jul 2026 — Present",
         org: "Registro Mercantil de Madrid",
-        role: "Developer",
+        role: "Web Developer",
         pill: "Current",
         current: true,
-        summary: "Working at the Madrid Companies Registry, bringing my Java and backend background into a professional production environment.",
+        summary: "Developing a web application with C# and ASP.NET Web Forms at the Madrid Companies Registry, bringing my backend background into a professional production environment.",
       },
       {
         period: "2025 · 3 months",
@@ -94,8 +94,8 @@ const COPY = {
     projectsEmpty: "no public repositories found.",
 
     skillGroups: [
-      { tag: "languages", items: ["Java", "Kotlin", "SQL", "JavaScript", "HTML", "CSS"], primary: true },
-      { tag: "frameworks & runtimes", items: ["Spring Boot", "Vue 3", "Node.js"] },
+      { tag: "languages", items: ["Java", "C#", "Kotlin", "SQL", "JavaScript", "HTML", "CSS"], primary: true },
+      { tag: "frameworks & runtimes", items: ["Spring Boot", "ASP.NET Web Forms", "Vue 3", "Node.js"] },
       { tag: "tooling", items: ["Git", "GitHub", "IntelliJ IDEA", "VS Code"] },
       { tag: "practices", items: ["Structured code", "Documentation", "Team collaboration", "Continuous learning"] },
     ],
@@ -132,7 +132,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Desarrollador con perfil backend, centrado en <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Desde julio de 2026 en el <strong>Registro Mercantil de Madrid</strong>. Creador de <strong>GamerZone</strong>, una plataforma de chat y voz en tiempo real desplegada en producción. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
+        Desarrollador con perfil backend, centrado en <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Desde julio de 2026 en el <strong>Registro Mercantil de Madrid</strong>, desarrollando aplicaciones web con <strong>C# y .NET</strong>. Creador de <strong>GamerZone</strong>, una plataforma de chat y voz en tiempo real desplegada en producción. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
       </>
     ),
 
@@ -161,9 +161,9 @@ const COPY = {
     now: {
       tag: "// estado",
       title: "Trabajando en el Registro Mercantil de Madrid",
-      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid. Fuera del horario laboral desarrollo y mantengo GamerZone, mi propia plataforma de comunicación en tiempo real, con la que sigo profundizando en backend, WebRTC y despliegues en producción.",
+      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid, donde desarrollo una aplicación web con C# y ASP.NET Web Forms. Fuera del horario laboral desarrollo y mantengo GamerZone, mi propia plataforma de comunicación en tiempo real, con la que sigo profundizando en backend, WebRTC y despliegues en producción.",
       items: [
-        "Registro Mercantil de Madrid",
+        "C# + ASP.NET Web Forms",
         "GamerZone — plataforma de chat y voz",
         "WebRTC y sistemas en tiempo real",
         "Fundamentos de Java + Spring Boot",
@@ -174,10 +174,10 @@ const COPY = {
       {
         period: "Jul 2026 — Actualidad",
         org: "Registro Mercantil de Madrid",
-        role: "Desarrollador",
+        role: "Desarrollador Web",
         pill: "Actual",
         current: true,
-        summary: "Trabajando en el Registro Mercantil de Madrid, aplicando mi base de Java y backend en un entorno profesional de producción.",
+        summary: "Desarrollo de una aplicación web con C# y ASP.NET Web Forms en el Registro Mercantil de Madrid, aplicando mi base de backend en un entorno profesional de producción.",
       },
       {
         period: "2025 · 3 meses",
@@ -219,8 +219,8 @@ const COPY = {
     projectsEmpty: "no se han encontrado repositorios públicos.",
 
     skillGroups: [
-      { tag: "lenguajes", items: ["Java", "Kotlin", "SQL", "JavaScript", "HTML", "CSS"], primary: true },
-      { tag: "frameworks y runtimes", items: ["Spring Boot", "Vue 3", "Node.js"] },
+      { tag: "lenguajes", items: ["Java", "C#", "Kotlin", "SQL", "JavaScript", "HTML", "CSS"], primary: true },
+      { tag: "frameworks y runtimes", items: ["Spring Boot", "ASP.NET Web Forms", "Vue 3", "Node.js"] },
       { tag: "herramientas", items: ["Git", "GitHub", "IntelliJ IDEA", "VS Code"] },
       { tag: "metodología", items: ["Código estructurado", "Documentación", "Trabajo en equipo", "Aprendizaje continuo"] },
     ],

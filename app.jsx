@@ -247,6 +247,7 @@ function FeaturedProject({ copy }) {
 // ============ Projects (live from GitHub) ============
 const LANG_COLORS = {
   Java: "oklch(0.65 0.18 30)",
+  "C#": "oklch(0.62 0.16 300)",
   Kotlin: "oklch(0.72 0.18 290)",
   JavaScript: "oklch(0.85 0.18 95)",
   TypeScript: "oklch(0.65 0.16 240)",
