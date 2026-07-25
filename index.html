@@ -440,6 +440,77 @@
     line-height: 1.65;
   }
 
+  /* ====== FEATURED PROJECT ====== */
+  .featured-card {
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 36px;
+    align-items: center;
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 32px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .featured-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--magenta), var(--cyan));
+  }
+  @media (max-width: 880px) {
+    .featured-card { grid-template-columns: 1fr; gap: 24px; padding: 24px; }
+  }
+  .featured-name {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  .featured-name .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: oklch(0.72 0.26 340 / 0.14);
+    color: var(--magenta);
+    border: 1px solid oklch(0.72 0.26 340 / 0.35);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .featured-desc {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 20px;
+    max-width: 56ch;
+  }
+  .featured-shot {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--bg-card);
+    text-decoration: none;
+    box-shadow: 0 30px 60px -20px oklch(0 0 0 / 0.5), 0 0 0 1px oklch(0.72 0.26 340 / 0.08);
+    transition: transform 160ms ease, border-color 160ms ease;
+  }
+  .featured-shot:hover {
+    transform: translateY(-3px);
+    border-color: var(--magenta);
+  }
+  .featured-shot .terminal-bar { display: flex; }
+  .featured-shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   /* ====== PROJECTS ====== */
   .projects-state {
     font-family: var(--mono);

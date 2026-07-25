@@ -209,6 +209,41 @@ function Experience({ copy }) {
   );
 }
 
+// ============ Featured project — GamerZone ============
+const GAMERZONE_URL = "https://gamerzone-gg.duckdns.org";
+
+function FeaturedProject({ copy }) {
+  const f = copy.featured;
+  return (
+    <div className="featured-card">
+      <div className="featured-info">
+        <div className="now-header" style={{ marginBottom: 14 }}>
+          <span className="live-dot" />
+          <span>{f.tag}</span>
+        </div>
+        <h3 className="featured-name">
+          GamerZone
+          <span className="pill">{f.live}</span>
+        </h3>
+        <p className="featured-desc">{f.desc}</p>
+        <ul className="skill-list" style={{ marginBottom: 22 }}>
+          {f.stack.map((s, i) => <li key={i}>{s}</li>)}
+        </ul>
+        <a className="cv-btn" href={GAMERZONE_URL} target="_blank" rel="noopener noreferrer">
+          {f.visit} ↗
+        </a>
+      </div>
+      <a className="featured-shot" href={GAMERZONE_URL} target="_blank" rel="noopener noreferrer">
+        <span className="terminal-bar">
+          <span className="lights"><span /><span /><span /></span>
+          <span className="title">gamerzone-gg.duckdns.org</span>
+        </span>
+        <img src="assets/gamerzone-preview.png" alt={f.caption} loading="lazy" />
+      </a>
+    </div>
+  );
+}
+
 // ============ Projects (live from GitHub) ============
 const LANG_COLORS = {
   Java: "oklch(0.65 0.18 30)",
@@ -264,6 +299,8 @@ function Projects({ copy }) {
           @{PROFILE.githubUser} ↗
         </a>
       </div>
+
+      <FeaturedProject copy={copy} />
 
       {state.status === "loading" && <div className="projects-state">$ <span style={{color:"var(--lime)"}}>{copy.projectsLoading}</span><span className="cursor" style={{verticalAlign:"-1px"}}/></div>}
       {state.status === "error" && <div className="projects-state">$ <span className="err">{copy.projectsError}</span></div>}
@@ -443,7 +480,7 @@ function Footer({ copy }) {
     <footer>
       <div className="footer-inner">
         <span className="sig">© 2026 Luis Moreno-Torres Marqués · <span>{copy.footer}</span></span>
-        <span>v1.0.0 · build {new Date().toISOString().slice(0, 10)}</span>
+        <span>v1.1.0 · build {new Date().toISOString().slice(0, 10)}</span>
       </div>
     </footer>
   );

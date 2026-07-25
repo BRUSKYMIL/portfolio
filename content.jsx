@@ -7,7 +7,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Backend-leaning developer working primarily with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Recently completed a three-month internship at <strong>Indra</strong>. Self-taught, methodical, and focused on writing reliable, well-documented code.
+        Backend-leaning developer working primarily with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Since July 2026 at the <strong>Registro Mercantil de Madrid</strong>. Creator of <strong>GamerZone</strong>, a real-time chat and voice platform running in production. Self-taught, methodical, and focused on writing reliable, well-documented code.
       </>
     ),
 
@@ -35,23 +35,29 @@ const COPY = {
 
     now: {
       tag: "// status",
-      title: "Building on Spring Boot fundamentals",
-      body: "After a three-month internship at Indra training in Spring Boot, GitHub workflows, and team practices, I am now consolidating that experience through personal projects and continuing to deepen my Java backend foundations.",
+      title: "Working at the Registro Mercantil de Madrid",
+      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry). Outside working hours I build and operate GamerZone, my own real-time communication platform, which keeps me deepening my knowledge of backends, WebRTC, and production deployments.",
       items: [
-        "Spring Boot REST APIs",
-        "Vue 3 + REST integrations",
-        "SQL & data modeling",
-        "Reading: clean architecture",
+        "Registro Mercantil de Madrid",
+        "GamerZone — chat & voice platform",
+        "WebRTC & real-time systems",
+        "Java + Spring Boot foundations",
       ],
     },
 
     experience: [
       {
+        period: "Jul 2026 — Present",
+        org: "Registro Mercantil de Madrid",
+        role: "Developer",
+        pill: "Current",
+        current: true,
+        summary: "Working at the Madrid Companies Registry, bringing my Java and backend background into a professional production environment.",
+      },
+      {
         period: "2025 · 3 months",
         org: "Indra",
         role: "Software Development Intern",
-        pill: "Recent",
-        current: true,
         summary: "Three-month internship training in Spring Boot (Java), GitHub workflows, and the team dynamics of a large engineering organization.",
       },
       {
@@ -73,6 +79,15 @@ const COPY = {
         summary: "Completed the Baccalaureate in Technological Sciences, building the foundation for further studies in software development.",
       },
     ],
+
+    featured: {
+      tag: "// featured project",
+      live: "Live",
+      desc: "A full real-time communication platform built and operated end to end: servers with roles and permissions, text channels and group DMs, WebRTC voice calls with screen sharing, push notifications, an installable PWA, and a Windows desktop app with auto-updates. Running in production on a cloud VM with real daily users.",
+      stack: ["Node.js", "WebSockets", "WebRTC", "PWA + Web Push", "Electron", "Oracle Cloud + Caddy"],
+      visit: "Visit GamerZone",
+      caption: "gamerzone-gg.duckdns.org — production login screen",
+    },
 
     projectsLoading: "fetching repositories from github.com/BRUSKYMIL ...",
     projectsError: "could not reach github api — check connection or visit the profile directly.",
@@ -117,7 +132,7 @@ const COPY = {
 
     heroBio: (
       <>
-        Desarrollador con perfil backend, centrado en <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Recién finalizadas las prácticas de tres meses en <strong>Indra</strong>. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
+        Desarrollador con perfil backend, centrado en <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Desde julio de 2026 en el <strong>Registro Mercantil de Madrid</strong>. Creador de <strong>GamerZone</strong>, una plataforma de chat y voz en tiempo real desplegada en producción. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
       </>
     ),
 
@@ -145,23 +160,29 @@ const COPY = {
 
     now: {
       tag: "// estado",
-      title: "Consolidando los fundamentos de Spring Boot",
-      body: "Tras tres meses de prácticas en Indra formándome en Spring Boot, flujos con GitHub y dinámicas de equipo, ahora consolido esa experiencia con proyectos personales y profundizo en los fundamentos del backend con Java.",
+      title: "Trabajando en el Registro Mercantil de Madrid",
+      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid. Fuera del horario laboral desarrollo y mantengo GamerZone, mi propia plataforma de comunicación en tiempo real, con la que sigo profundizando en backend, WebRTC y despliegues en producción.",
       items: [
-        "APIs REST con Spring Boot",
-        "Integración Vue 3 + REST",
-        "SQL y modelado de datos",
-        "Lectura: arquitectura limpia",
+        "Registro Mercantil de Madrid",
+        "GamerZone — plataforma de chat y voz",
+        "WebRTC y sistemas en tiempo real",
+        "Fundamentos de Java + Spring Boot",
       ],
     },
 
     experience: [
       {
+        period: "Jul 2026 — Actualidad",
+        org: "Registro Mercantil de Madrid",
+        role: "Desarrollador",
+        pill: "Actual",
+        current: true,
+        summary: "Trabajando en el Registro Mercantil de Madrid, aplicando mi base de Java y backend en un entorno profesional de producción.",
+      },
+      {
         period: "2025 · 3 meses",
         org: "Indra",
         role: "Prácticas de Desarrollo de Software",
-        pill: "Reciente",
-        current: true,
         summary: "Tres meses de prácticas formándome en Spring Boot (Java), flujos de trabajo con GitHub y la dinámica de funcionamiento de un equipo de ingeniería grande.",
       },
       {
@@ -183,6 +204,15 @@ const COPY = {
         summary: "Bachillerato de Ciencias Tecnológicas finalizado, sentando la base para los estudios posteriores en desarrollo de software.",
       },
     ],
+
+    featured: {
+      tag: "// proyecto destacado",
+      live: "En producción",
+      desc: "Una plataforma completa de comunicación en tiempo real, construida y operada de principio a fin: servidores con roles y permisos, canales de texto y grupos de mensajes directos, llamadas de voz WebRTC con compartir pantalla, notificaciones push, PWA instalable y aplicación de escritorio para Windows con auto-actualizaciones. Desplegada en producción en una VM cloud con usuarios reales a diario.",
+      stack: ["Node.js", "WebSockets", "WebRTC", "PWA + Web Push", "Electron", "Oracle Cloud + Caddy"],
+      visit: "Visitar GamerZone",
+      caption: "gamerzone-gg.duckdns.org — pantalla de acceso en producción",
+    },
 
     projectsLoading: "obteniendo repositorios de github.com/BRUSKYMIL ...",
     projectsError: "no se pudo conectar con la API de GitHub — revisa la conexión o visita el perfil directamente.",
