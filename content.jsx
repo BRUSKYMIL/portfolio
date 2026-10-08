@@ -1,13 +1,13 @@
 // Bilingual content + data for the portfolio
 const COPY = {
   en: {
-    role: "Software Developer",
+    role: "Software Engineer",
     location: "Madrid, Spain",
     available: "Open to work",
 
     heroBio: (
       <>
-        Web developer at the <strong>Registro Mercantil de Madrid</strong> since July 2026, building a web application with <strong>C# and ASP.NET Web Forms</strong>. Backend-leaning by background, with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Self-taught, methodical, and focused on writing reliable, well-documented code.
+        Software engineer at the <strong>Registro Mercantil de Madrid</strong> since June 2026, building a web application with <strong>C# and ASP.NET Web Forms</strong>. Backend-leaning by background, with <strong>Java</strong> and the <strong>Spring Boot</strong> ecosystem. Self-taught, methodical, and focused on writing reliable, well-documented code.
       </>
     ),
 
@@ -36,7 +36,7 @@ const COPY = {
     now: {
       tag: "// status",
       title: "Building web applications with C# and .NET",
-      body: "Since July 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry), where I develop a web application with C# and ASP.NET Web Forms.",
+      body: "Since June 2026 I am part of the team at the Registro Mercantil de Madrid (Madrid Companies Registry), where I develop a web application with C# and ASP.NET Web Forms.",
       items: [
         "C#",
         "ASP.NET Web Forms",
@@ -52,9 +52,9 @@ const COPY = {
 
     experience: [
       {
-        period: "Jul 2026 — Present",
+        period: "Jun 2026 — Present",
         org: "Registro Mercantil de Madrid",
-        role: "Web Developer",
+        role: "Software Engineer .NET",
         pill: "Current",
         current: true,
         summary: "Developing a web application with C# and ASP.NET Web Forms at the Madrid Companies Registry, bringing my backend background into a professional production environment.",
@@ -62,8 +62,8 @@ const COPY = {
       {
         period: "2025 · 3 months",
         org: "Indra",
-        role: "Software Development Intern",
-        summary: "Three-month internship training in Spring Boot (Java), GitHub workflows, and the team dynamics of a large engineering organization.",
+        role: "Software Developer Java",
+        summary: "Back-end development in Java with Spring Boot and Spring Framework, working with GitHub workflows inside a large engineering organization.",
       },
       {
         period: "2023 — 2025",
@@ -131,13 +131,13 @@ const COPY = {
   },
 
   es: {
-    role: "Desarrollador de Software",
+    role: "Software Engineer",
     location: "Madrid, España",
     available: "Disponible",
 
     heroBio: (
       <>
-        Desarrollador web en el <strong>Registro Mercantil de Madrid</strong> desde julio de 2026, donde desarrollo una aplicación web con <strong>C# y ASP.NET Web Forms</strong>. De formación backend, con <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
+        Software engineer en el <strong>Registro Mercantil de Madrid</strong> desde junio de 2026, donde desarrollo una aplicación web con <strong>C# y ASP.NET Web Forms</strong>. De formación backend, con <strong>Java</strong> y el ecosistema <strong>Spring Boot</strong>. Autodidacta, metódico y enfocado en escribir código fiable y bien documentado.
       </>
     ),
 
@@ -166,7 +166,7 @@ const COPY = {
     now: {
       tag: "// estado",
       title: "Desarrollando aplicaciones web con C# y .NET",
-      body: "Desde julio de 2026 formo parte del equipo del Registro Mercantil de Madrid, donde desarrollo una aplicación web con C# y ASP.NET Web Forms.",
+      body: "Desde junio de 2026 formo parte del equipo del Registro Mercantil de Madrid, donde desarrollo una aplicación web con C# y ASP.NET Web Forms.",
       items: [
         "C#",
         "ASP.NET Web Forms",
@@ -182,9 +182,9 @@ const COPY = {
 
     experience: [
       {
-        period: "Jul 2026 — Actualidad",
+        period: "Jun 2026 — Actualidad",
         org: "Registro Mercantil de Madrid",
-        role: "Desarrollador Web",
+        role: "Software Engineer .NET",
         pill: "Actual",
         current: true,
         summary: "Desarrollo de una aplicación web con C# y ASP.NET Web Forms en el Registro Mercantil de Madrid, aplicando mi base de backend en un entorno profesional de producción.",
@@ -192,8 +192,8 @@ const COPY = {
       {
         period: "2025 · 3 meses",
         org: "Indra",
-        role: "Prácticas de Desarrollo de Software",
-        summary: "Tres meses de prácticas formándome en Spring Boot (Java), flujos de trabajo con GitHub y la dinámica de funcionamiento de un equipo de ingeniería grande.",
+        role: "Software Developer Java",
+        summary: "Desarrollo back end en Java con Spring Boot y Spring Framework, con flujos de trabajo en GitHub dentro de una gran organización de ingeniería.",
       },
       {
         period: "2023 — 2025",
