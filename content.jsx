@@ -88,11 +88,11 @@ const COPY = {
 
     featured: {
       tag: "// featured project",
-      live: "Live",
-      desc: "A full real-time communication platform built and operated end to end: servers with roles and permissions, text channels and group DMs, WebRTC voice calls with screen sharing, push notifications, an installable PWA, and a Windows desktop app with auto-updates. Running in production on a cloud VM with real daily users.",
+      live: "Hosting paused",
+      desc: "A full real-time communication platform built and operated end to end: servers with roles and permissions, text channels and group DMs, WebRTC voice calls with screen sharing, push notifications, an installable PWA, and a Windows desktop app with auto-updates. It ran in production on a cloud VM with real users; hosting is currently paused.",
       stack: ["Node.js", "WebSockets", "WebRTC", "PWA + Web Push", "Electron", "Oracle Cloud + Caddy"],
       visit: "Visit GamerZone",
-      caption: "gamerzone-gg.duckdns.org — production login screen",
+      caption: "GamerZone — login screen",
     },
 
     projectsLoading: "fetching repositories from github.com/BRUSKYMIL ...",
@@ -219,11 +219,11 @@ const COPY = {
 
     featured: {
       tag: "// proyecto destacado",
-      live: "En producción",
-      desc: "Una plataforma completa de comunicación en tiempo real, construida y operada de principio a fin: servidores con roles y permisos, canales de texto y grupos de mensajes directos, llamadas de voz WebRTC con compartir pantalla, notificaciones push, PWA instalable y aplicación de escritorio para Windows con auto-actualizaciones. Desplegada en producción en una VM cloud con usuarios reales a diario.",
+      live: "Alojamiento en pausa",
+      desc: "Una plataforma completa de comunicación en tiempo real, construida y operada de principio a fin: servidores con roles y permisos, canales de texto y grupos de mensajes directos, llamadas de voz WebRTC con compartir pantalla, notificaciones push, PWA instalable y aplicación de escritorio para Windows con auto-actualizaciones. Estuvo en producción en una VM cloud con usuarios reales; ahora el alojamiento está en pausa.",
       stack: ["Node.js", "WebSockets", "WebRTC", "PWA + Web Push", "Electron", "Oracle Cloud + Caddy"],
       visit: "Visitar GamerZone",
-      caption: "gamerzone-gg.duckdns.org — pantalla de acceso en producción",
+      caption: "GamerZone — pantalla de acceso",
     },
 
     projectsLoading: "obteniendo repositorios de github.com/BRUSKYMIL ...",

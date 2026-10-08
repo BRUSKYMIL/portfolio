@@ -216,8 +216,6 @@ function Experience({ copy }) {
 }
 
 // ============ Featured project — GamerZone ============
-const GAMERZONE_URL = "https://gamerzone-gg.duckdns.org";
-
 function FeaturedProject({ copy }) {
   const f = copy.featured;
   return (
@@ -235,17 +233,14 @@ function FeaturedProject({ copy }) {
         <ul className="skill-list" style={{ marginBottom: 22 }}>
           {f.stack.map((s, i) => <li key={i}>{s}</li>)}
         </ul>
-        <a className="cv-btn" href={GAMERZONE_URL} target="_blank" rel="noopener noreferrer">
-          {f.visit} ↗
-        </a>
       </div>
-      <a className="featured-shot" href={GAMERZONE_URL} target="_blank" rel="noopener noreferrer">
+      <div className="featured-shot">
         <span className="terminal-bar">
           <span className="lights"><span /><span /><span /></span>
-          <span className="title">gamerzone-gg.duckdns.org</span>
+          <span className="title">GamerZone</span>
         </span>
         <img src="assets/gamerzone-preview.png" alt={f.caption} loading="lazy" />
-      </a>
+      </div>
     </div>
   );
 }
