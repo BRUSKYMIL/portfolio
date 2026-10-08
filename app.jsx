@@ -8,7 +8,7 @@ function HeroTerminal({ lang }) {
     { kind: "cmd", text: "cat profile.json" },
     { kind: "json", lines: [
       "{",
-      '  "rol":      "Desarrollador Web",',
+      '  "rol":      "Software Engineer",',
       '  "stack":    ["C#", ".NET", "Java", "SQL"],',
       '  "ubicacion":"Madrid, ES",',
       '  "estado":   "disponible para trabajar"',
@@ -22,7 +22,7 @@ function HeroTerminal({ lang }) {
     { kind: "cmd", text: "cat profile.json" },
     { kind: "json", lines: [
       "{",
-      '  "role":     "Web Developer",',
+      '  "role":     "Software Engineer",',
       '  "stack":    ["C#", ".NET", "Java", "SQL"],',
       '  "location": "Madrid, ES",',
       '  "status":   "open to work"',
