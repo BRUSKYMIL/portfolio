@@ -108,7 +108,7 @@ function TopBar({ lang, setLang, copy }) {
             <button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>EN</button>
             <button className={lang === "es" ? "active" : ""} onClick={() => setLang("es")}>ES</button>
           </div>
-          <a className="cv-btn" href={PROFILE.cv} download>
+          <a className="cv-btn" href={copy.cv} download>
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M8 2v9m0 0l-3-3m3 3l3-3M3 14h10" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -436,10 +436,10 @@ function Contact({ copy }) {
               </a>
             </li>
             <li>
-              <a href={PROFILE.cv} download>
+              <a href={copy.cv} download>
                 <span>
                   <span className="label">Curriculum Vitae</span>
-                  <span className="val">CV-Luis-Moreno-Torres.pdf</span>
+                  <span className="val">{copy.cv.split("/").pop()}</span>
                 </span>
                 <span className="arrow">↓</span>
               </a>

@@ -3,6 +3,7 @@ const COPY = {
   en: {
     role: "Software Engineer",
     location: "Madrid, Spain",
+    cv: "assets/CV-Luis-Moreno-Torres.pdf",
     available: "Open to work",
 
     heroBio: (
@@ -133,6 +134,7 @@ const COPY = {
   es: {
     role: "Software Engineer",
     location: "Madrid, España",
+    cv: "assets/CV-Luis-Moreno-Torres-ES.pdf",
     available: "Disponible",
 
     heroBio: (
